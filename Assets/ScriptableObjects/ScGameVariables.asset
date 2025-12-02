@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3b891bcdf21df4ab82ea34c3afc99e, type: 3}
+  m_Name: ScGameVariables
+  m_EditorClassIdentifier: 
+  bgTilePrefabs: {fileID: 2914066502361773997, guid: 3f39182b81f944a4d93213431acb41c3, type: 3}
+  bomb: {fileID: 2180033935803449428, guid: aa0291e650b382941875040db9e8a232, type: 3}
+  gems:
+  - {fileID: -7932498854989450506, guid: 724e93e48c6cc0b4ab3d44e5ea34f2ec, type: 3}
+  - {fileID: 1972979191936378847, guid: 784323496d719684cb6201b200b95864, type: 3}
+  - {fileID: 3416069867743778491, guid: 93bd623174244c047af9ce43cc254c32, type: 3}
+  - {fileID: 8289337781777951430, guid: 473855e3d0d3c8143836b678c9a1b8b5, type: 3}
+  - {fileID: 4372168081761593873, guid: 91ba2370328500d4db689dad894b1602, type: 3}
+  bonusAmount: 0.5
+  bombChance: 3
+  dropHeight: 1
+  gemSpeed: 7
+  scoreSpeed: 5
+  cascadeDelay: 0.05
+  bombNeighborDestroyDelay: 0.2
+  bombSelfDestroyDelay: 0.2
+  rowsSize: 7
+  colsSize: 7
